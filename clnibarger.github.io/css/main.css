@@ -1,0 +1,64 @@
+body {
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: whitesmoke;
+    color: rgb(241, 12, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+header, nav, main, div, footer {
+    margin: 1.25rem auto;
+    max-width: 760;
+}
+
+#pic {
+    width: 50%;
+    float: left;
+    
+}
+
+img {
+    max-width: 500px;
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+
+}
+nav{
+    margin: 10px 30%;
+    width: 40%;
+}
+
+nav li {
+    color: rgb(214, 13, 56);
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header {
+    text-align: center;
+
+    width: 100%;
+    background-color: white;
+
+}
+
+
+main {
+    float: left;
+    width: 35%;
+    padding-left: 10%;
+    padding-top: 5%;
+  
+}
+footer{
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: cornsilk;
+}

@@ -11,12 +11,6 @@ header, nav, main, div, footer {
     max-width: 760;
 }
 
-#pic {
-    width: 50%;
-    float: left;
-    
-}
-
 img {
     max-width: 500px;
     border-style: double;
@@ -49,16 +43,13 @@ header {
 }
 
 
-main {
-    float: left;
-    width: 35%;
-    padding-left: 10%;
-    padding-top: 5%;
-  
-}
+
 footer{
     clear: both;
     text-align: center;
     background-color: black;
     color: cornsilk;
 }
+h1 h2{
+    font-family: 'Anton', sans-serif;
+} 

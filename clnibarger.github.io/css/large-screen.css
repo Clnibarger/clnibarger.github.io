@@ -1,0 +1,13 @@
+@media (min-width: 50em){
+    #pic {
+        width: 50%;
+        float: right;
+    }  
+    
+main {
+    float: left;
+    width: 35%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+}

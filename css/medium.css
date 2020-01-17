@@ -2,7 +2,7 @@
 /* general rules that apply to all devices */
 
 @media screen and (min-width: 680px){
-    .wrapper1{
+    .wrapper{
         width: 80%;
         margin: 0 auto;
         max-width: 1300px;
@@ -11,11 +11,5 @@
     }
     body h1, h2{
         font-size: 30px;
-    }
-    .wrapper{
-        display: none;
-    }
-    .wrapper2{
-        display: none;
     }
 }

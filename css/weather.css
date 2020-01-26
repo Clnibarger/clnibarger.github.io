@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+
+}li, a, button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: black;
+}
+nav ul a {
+  background-color: black;
+}
+nav ul li{
+  background-color: black;
+}
+nav ul{
+  background-color: black;
+}
+.logo{
+  cursor: pointer;
+  width: 60px;
+}
+.menu{
+  list-style: none;
+}
+.menu li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.menu a{
+  transition: all 0.3s ease 0s;
+}
+.menu a:hover{
+  color: #0088a9;
+}
+button{
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+background-color: rgba(0,136,169,0.8);
+}
+main{
+  min-height: 250px;
+}
+footer{
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
+  padding: 10px 0px;
+  height: 40px;
+}
+footer a{
+  font-size: 14px;
+}
+p{
+  color: aliceblue;
+}
+h2{
+  color:rgb(233, 233, 109);
+  padding: 20px 0px;
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+div{
+  padding: 20px;
+  text-align: center;
+  min-height: 200px;
+}
+@media screen and (min-width: 800px){
+  section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  main{
+    min-height: 530px;
+  }
+
+  }
+  

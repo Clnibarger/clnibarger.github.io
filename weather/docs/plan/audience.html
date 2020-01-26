@@ -9,21 +9,23 @@
     <link href="/css/normalize.css" rel="stylesheet">
     <link href="/css/weather.css" rel="stylesheet">
 </head>
-<header>
-    <img class="logo" src="/images/Weather-128.png" alt="cloud image">
-    <nav class="navigation">
-        <ul class="menu">
-            <li><a href="/weather/docs/plan/index.html">Home</a></li>
-            <li><a href="/weather/docs/plan/audience.html">Audience</a></li>
-            <li><a href="/weather/docs/plan/color.html">Color</a></li>
-            <li><a href="/weather/docs/plan/typography.html">Typography</a></li>
-        </ul>
-
-    </nav>
-    <a class='cta' href='/index.html'><button>Portal</button></a>
-</header>
 
 <body>
+    <header>
+        <img class="logo" src="/images/Weather-128.png" alt="cloud image">
+        <nav class="navigation">
+            <ul class="menu">
+                <li><a href="/weather/docs/plan/index.html">Home</a></li>
+                <li><a href="/weather/docs/plan/audience.html">Audience</a></li>
+                <li><a href="/weather/docs/plan/color.html">Color</a></li>
+                <li><a href="/weather/docs/plan/typography.html">Typography</a></li>
+            </ul>
+
+        </nav>
+        <button> <a class='cta' href='/index.html'>Portal</a></button>
+    </header>
+
+
 
     <main>
         <section>
@@ -39,13 +41,17 @@
                 <h2>Scenarios</h2>
                 <p>Scenario 1: Jeff needs to find out if it is going to be snowing overnight. He plows the roads when it
                     snows and is curious if he should set his alarm for early or not.<br></p>
-                <p><br>Scenario 2: Jared is unsure which weekend he should plan a trip home to go see his parents. He checks
+                <p><br>Scenario 2: Jared is unsure which weekend he should plan a trip home to go see his parents. He
+                    checks
                     the weather reports to see when the best time to drive would be.<br></p>
-                <p><br>Scenario 3: Lucy is going on a camping trip. She checks the weather to see if she should pack rain
+                <p><br>Scenario 3: Lucy is going on a camping trip. She checks the weather to see if she should pack
+                    rain
                     clothes or not.<br></p>
-                <p><br>Scenario 4: Greg is a farmer. He regualrly is checking the weather to see if there is going to be an
+                <p><br>Scenario 4: Greg is a farmer. He regualrly is checking the weather to see if there is going to be
+                    an
                     early frost. He has to harvest before it freezes over.<br></p>
-                <p><br>Scenario 5: Christian is thinking about moving to rexburg. He decided to check out the tempurature in
+                <p><br>Scenario 5: Christian is thinking about moving to rexburg. He decided to check out the
+                    tempurature in
                     rexburg online to help him make his final decision. Christian decided to move to Arizona.</p>
             </div>
 
@@ -56,10 +62,12 @@
         </section>
     </main>
 
+
+    <footer> &copy; <span id="currentdate"></span>| Christian Nibarger |<a href="https://developer.mozilla.org/en-US/">
+            MDN
+            Documentation site</a>| Last Modified: <span id="lastMod"></span>
+    </footer>
 </body>
-<footer> &copy; <span id="currentdate"></span>| Christian Nibarger |<a href="https://developer.mozilla.org/en-US/"> MDN
-        Documentation site</a>| Last Modified: <span id="lastMod"></span>
-</footer>
 <script src="/js/currentdate.js">
 
 </script>

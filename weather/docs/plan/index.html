@@ -9,21 +9,23 @@
     <link href="/css/normalize.css" rel="stylesheet">
     <link href="/css/weather.css" rel="stylesheet">
 </head>
-<header>
-    <img class="logo" src="/images/Weather-128.png" alt="cloud image">
-    <nav class="navigation">
-        <ul class="menu">
-            <li><a href="/weather/docs/plan/index.html">Home</a></li>
-            <li><a href="/weather/docs/plan/audience.html">Audience</a></li>
-            <li><a href="/weather/docs/plan/color.html">Color</a></li>
-            <li><a href="/weather/docs/plan/typography.html">Typography</a></li>
-        </ul>
-
-    </nav>
-    <a class='cta' href='/index.html'><button>Portal</button></a>
-</header>
 
 <body>
+    <header>
+        <img class="logo" src="/images/Weather-128.png" alt="cloud image">
+        <nav class="navigation">
+            <ul class="menu">
+                <li><a href="/weather/docs/plan/index.html">Home</a></li>
+                <li><a href="/weather/docs/plan/audience.html">Audience</a></li>
+                <li><a href="/weather/docs/plan/color.html">Color</a></li>
+                <li><a href="/weather/docs/plan/typography.html">Typography</a></li>
+            </ul>
+
+        </nav>
+        <button> <a class='cta' href='/index.html'>Portal</a></button>
+    </header>
+
+
 
     <main>
         <section>
@@ -50,10 +52,12 @@
         </section>
     </main>
 
+
+    <footer> &copy; <span id="currentdate"></span>| Christian Nibarger |<a href="https://developer.mozilla.org/en-US/">
+            MDN
+            Documentation site</a>| Last Modified: <span id="lastMod"></span>
+    </footer>
 </body>
-<footer> &copy; <span id="currentdate"></span>| Christian Nibarger |<a href="https://developer.mozilla.org/en-US/"> MDN
-        Documentation site</a>| Last Modified: <span id="lastMod"></span>
-</footer>
 <script src="/js/currentdate.js">
 
 </script>

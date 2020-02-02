@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+li,
+a,
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: black;
+  align-content: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 1fr;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  justify-self: center;
+}
+
+header div {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+
+}
+
+header div p {
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  padding: 25px;
+  background-color: black;
+}
+
+nav ul a {
+  background-color: black;
+}
+
+nav ul li {
+  background-color: black;
+}
+
+nav ul {
+  background-color: black;
+}
+
+.logo {
+  cursor: pointer;
+  width: 50px;
+  margin-top: 30px;
+
+  background-color: black;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0px 60px;
+  margin: 0px;
+}
+
+.menu a {
+  transition: all 0.3s ease 0s;
+}
+
+.menu a:hover {
+  color: #0088a9;
+}
+
+.title {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+button {
+
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  align-content: flex-end;
+  margin-top: 35px;
+  padding: 3px;
+  width: 80px;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+main {
+  min-height: 250px;
+}
+
+footer {
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
+  padding: 10px 0px;
+  height: 40px;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+p {
+  color: aliceblue;
+}
+
+h2 {
+  color: rgb(233, 233, 109);
+  padding: 20px 0px;
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+section div {
+  min-height: 12em;
+}
+
+div {
+  text-align: center;
+}
+
+.num {
+  height: 50px;
+  align-content: center;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+/* Ham Menu*/
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+}
+
+.navigation a:hover {
+  font-weight: 800;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+  display: block;
+}

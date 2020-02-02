@@ -1,0 +1,24 @@
+   
+    /* Media Query for medium + screens */
+@media only screen and (min-width: 650px) {
+	.navigation {
+    display: flex;
+  flex-direction: row;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+  }	
+  .navigation li a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+  }
+  section{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+  }
+  section div{
+    min-height: 16em;
+  }
+}

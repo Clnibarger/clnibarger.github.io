@@ -6,7 +6,7 @@
   flex-direction: row;
 	}
 	.navigation li {
-		display: block; /* needed because of state in small view */
+		display: inline-block; /* needed because of state in small view */
   }	
   .navigation li a {
 		text-align: center;
@@ -20,5 +20,8 @@
   }
   section div{
     min-height: 16em;
+  }
+  .menu{
+    display: inline-block;
   }
 }

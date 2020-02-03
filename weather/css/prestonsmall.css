@@ -59,7 +59,7 @@ header div p {
 
 nav {
   display: flex;
-  padding: 25px;
+  padding: 25px 15px;
   background-color: black;
 }
 
@@ -85,6 +85,8 @@ nav ul {
 
 .menu {
   list-style: none;
+  position: fixed;
+  bottom: 0px;
 }
 
 .menu li {
@@ -123,9 +125,7 @@ button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
 
-main {
-  min-height: 250px;
-}
+
 
 footer {
   text-align: center;

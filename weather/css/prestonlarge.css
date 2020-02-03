@@ -12,10 +12,8 @@
         margin-left: 25px;
         margin-top: 20px;
     }
-
     nav {
-        display: flex;
-        flex-direction: row;
+        display: inline-block;
         justify-content: space-around;
         padding: 20px;
     }

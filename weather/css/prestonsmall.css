@@ -161,9 +161,8 @@ section {
 
 .num {
   height: 50px;
-  align-content: center;
   padding-top: 25px;
-  margin-bottom: 25px;
+  text-align: center;
 }
 
 /* Ham Menu*/

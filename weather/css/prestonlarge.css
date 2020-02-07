@@ -20,7 +20,7 @@
   
     .num{
         height: 50px;
-        align-content: center;
+        align-self: auto;
         padding-top: 25px;
     }
     section{

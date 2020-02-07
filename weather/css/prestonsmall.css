@@ -108,6 +108,9 @@ nav ul {
   margin-top: 15px;
   margin-left: 20px;
 }
+.title p {
+  top:60px;
+}
 
 button {
 
@@ -125,8 +128,6 @@ button {
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
 }
-
-
 
 footer {
   text-align: center;
@@ -153,15 +154,10 @@ h2 {
 section {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 50px;
+  padding: auto;
 }
 
-section div {
-  min-height: 12em;
-}
-
-div {
-  text-align: center;
-}
 
 .num {
   height: 50px;
@@ -193,4 +189,137 @@ div {
   */
 .responsive li {
   display: block;
+}
+/* CSS for the circle parts*/
+.component{ 
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin: 100px;
+  width: 200px;
+  height: 200px; 
+  background-color: darkgray; 
+  position: relative; 
+  border-radius: 90%;
+  display: flex;
+  justify-content: center;
+}
+.inner{   
+width: 150px; 
+height: 150px;   
+background-color: #fff; 
+border-radius: 90%;   
+align-self: center; 
+}  
+.circle{   
+position: absolute;
+width: 26px; 
+height: 26px;   
+background-color: red; 
+border-radius: 90%;   
+top:-0.5px;
+left: 42%;
+}  
+.hex{
+  color: #24252a;
+  background-color: #fff;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+img{
+width: 30px;
+position: absolute;
+}
+.i0{
+top:-40px;
+left: 41%;
+}
+.i1{
+  top:-27px;
+right: 11%;
+}
+
+.i2{
+   top:23px;
+right: -14%;
+}
+.i3{
+top:43%;
+right:-40px;
+}
+.i4{
+   bottom:23px;
+right: -14%;
+}
+.i5{
+  bottom:-27px;
+right: 11%;
+}
+.i6{
+bottom:-40px;
+left: 41%;
+}
+.i7{
+  bottom:-27px;
+left: 11%;
+}
+.i8{
+   bottom:23px;
+left: -14%;
+}
+.i9{
+top:43%;
+left:-40px;
+}
+.i10{
+   top:23px;
+left: -14%;
+}
+p {
+position: absolute;
+background-color: darkgrey;
+
+}
+
+.p1{
+  top:15px;
+right: 25%;
+}
+
+.p2{
+   top:40px;
+right: 12%;
+}
+.p3{
+top:45%;
+right:10px;
+}
+.p4{
+   bottom:50px;
+right: 9%;
+}
+.p5{
+  bottom:15px;
+right: 25%;
+}
+.p6{
+ bottom:5px;
+left: 48%;
+}
+.p7{
+  bottom:15px;
+left: 25%;
+}
+.p8{
+  bottom:50px;
+  left: 9%;
+}
+.p9{
+  top:45%;
+  left:10px;
+}
+.p10{
+  top:40px;
+  left: 10%;
 }

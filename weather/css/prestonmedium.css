@@ -18,9 +18,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
   }
-  section div{
-    min-height: 16em;
+  .top{
+    top:50px;
   }
+  
  
   
 }

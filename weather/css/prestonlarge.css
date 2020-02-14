@@ -15,12 +15,12 @@
     nav {
         display: inline-block;
         justify-content: space-around;
-        padding: 20px;
+        padding: 30px;
+        margin-bottom: 30px;
     }
   
     .num{
         height: 50px;
-        align-self: auto;
         padding-top: 25px;
     }
     section{

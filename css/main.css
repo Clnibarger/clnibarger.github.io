@@ -1,9 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap'); */
 body {
     font-size: 20px;
     line-height: 1.5;
     background-color: whitesmoke;
     color: rgb(241, 12, 12);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     
 }
 header, nav, main, div, footer {
@@ -50,6 +51,6 @@ footer{
     background-color: black;
     color: cornsilk;
 }
-h1 h2{
-    font-family: 'Anton', sans-serif;
+h1, h2{
+    font-family: "Montserrat", sans-serif;
 } 

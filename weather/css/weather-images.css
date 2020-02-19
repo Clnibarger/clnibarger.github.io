@@ -1,12 +1,32 @@
 article img[data-src] {
-    filter: blur(0.2em);
+  filter: blur(0.2em);
+}
+
+article img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+div.pics {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+div.picsbig {
+  display: grid;
+  grid-template-columns: 1fr;
+  display: none;
+}
+
+@media screen and (min-width: 800px) {
+  div.pics {
+    display: grid;
+    grid-template-columns: 1fr;
+    display: none;
   }
-  
-  article img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
-  div.pics{
-      display: grid;
-      grid-template-columns: 1fr;
+
+  div.picsbig {
+    display: grid;
+    grid-template-columns: 1fr;
+    
   }

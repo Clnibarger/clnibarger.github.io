@@ -4,8 +4,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252a;
 
+}
+body{
+  background-color: #24252a;
 }
 
 html {
@@ -110,6 +112,7 @@ nav ul {
 
 .title p {
   top: 60px;
+  color: white;
 }
 
 button {
@@ -140,12 +143,9 @@ footer a {
   font-size: 14px;
 }
 
-p {
-  color: aliceblue;
-}
 
 h2 {
-  color: rgb(233, 233, 109);
+  color:firebrick;
   padding: 20px 0px;
   text-align: center;
 }
@@ -157,13 +157,10 @@ section {
   justify-items: center;
 }
 
-.num {
-  height: 50px;
-  padding-top: 25px;
-  text-align: center;
-}
-.num {
-  justify-content: center;
+.inner p {
+  position: absolute;
+
+
 }
 
 /* Ham Menu*/
@@ -190,10 +187,7 @@ section {
 .responsive li {
   display: block;
 }
-.num p {
-  width: 100%;
-  text-align: center;
-}
+
 
 /* CSS for the circle parts*/
 .component {
@@ -217,22 +211,21 @@ section {
   align-self: center;
 }
 
-.circle {
-  position: absolute;
-  width: 26px;
-  height: 26px;
-  background-color: red;
-  border-radius: 90%;
-  top: -0.5px;
-  left: 42%;
-}
+.ball {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: orangered;
+  color: transparent;
+ }
 
 .hex {
   color: #24252a;
   background-color: #fff;
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: 33%;
+  left: 37%;
+  font-size: 4rem;
 }
 
 img {
@@ -295,11 +288,6 @@ img {
   left: -14%;
 }
 
-p {
-  position: absolute;
-  background-color: darkgrey;
-
-}
 
 .p1 {
   top: 15px;
@@ -350,3 +338,53 @@ p {
   top: 40px;
   left: 10%;
 }
+#top{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  background-color: whitesmoke;
+  color: black;
+  border-style: double;
+  border-width: 10px;
+  border-color: firebrick;
+  min-width: 350px;
+}
+.num{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.blue{
+color: blue;
+font-size: 2.5rem;
+}
+.big{
+ color: black;
+ font-size: 5rem;
+}
+.red{
+color: red;
+font-size: 2.5rem;
+}
+.feel{
+  font-size: 1rem;
+}
+#curCond{
+  background-size: cover;
+
+}
+.clear {
+  background-image: url("/images/clear-assets/clear.png");
+ }
+ .rain {
+  background-image: url("/images/rain-assets/rain1.png");
+ }
+ .storm {
+  background-image: url("/images/storm-assets/storm1.png");
+ }
+ .snow {
+  background-image: url("/images/snow-assets/snow1.png");
+ }
+ .cloud {
+  background-image: url("/images/clouds-assets/cloud1.png");
+ }

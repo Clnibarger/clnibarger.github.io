@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", function(){
     let temp = 10;
     buildWC(speed, temp);
     // The Time Indictor function
-let hour="3";
+let hour="7";
 timeBall(hour);
 // The background image part
-let current="rain";
+let current="storm";
 changeSummaryImage(current);
 });
 
@@ -58,14 +58,8 @@ function timeBall(hour){
 }
 
 function changeSummaryImage(current){
-    var current = text.toLowerCase(current);
-    let x = document.querySelectorAll(".boo");
-    for (let item of x) {
-        console.log(item);
-        item.classList.remove("boo");
-
-        let hr = document.querySelector("curCond");
-        for (let item of hr){
-            item.classList.add("" + current);
-    }
-}}
+     current = current.toLowerCase();
+    let hr = document.querySelector("#curCond");
+    hr.classList.add(current);
+    
+}

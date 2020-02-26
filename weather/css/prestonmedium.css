@@ -39,7 +39,21 @@ nav {
     margin-bottom: 30px;
 }
 
-
+.clear {
+  background-image: url("/images/clear-assets/clear.png");
+ }
+ .rain {
+  background-image: url("/images/rain-assets/rain1.png");
+ }
+ .storm {
+  background-image: url("/images/storm-assets/storm1.png");
+ }
+ .snow {
+  background-image: url("/images/snow-assets/snow1.png");
+ }
+ .cloud {
+  background-image: url("/images/clouds-assets/cloud1.png");
+ }
   
  
   

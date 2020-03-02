@@ -209,15 +209,15 @@ section {
   background-color: #fff;
   border-radius: 90%;
   align-self: center;
-  
+
 }
 
 .ball {
-  height: 35px;
-  width: 35px;
+  height: 25px;
+  width: 25px;
   border-radius: 100%;
   background-color: orangered;
-  /* color: transparent; */
+    color: transparent;  
 
  
  }

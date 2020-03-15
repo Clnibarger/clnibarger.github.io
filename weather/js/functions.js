@@ -1,5 +1,5 @@
 
-
+"use strict";
 var pageNav = document.querySelector('#navigation');
 var statusContainer = document.querySelector('#status');
 var contentContainer = document.querySelector('#main-content');

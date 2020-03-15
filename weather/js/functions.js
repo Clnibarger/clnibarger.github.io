@@ -325,4 +325,3 @@ for (let i = 0, x = 12; i < x; i++) {
 contentContainer.setAttribute('class', ''); // removes the hide class from main
 statusContainer.setAttribute('class', 'hide'); // hides the status container
 }
-  }}

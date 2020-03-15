@@ -1,20 +1,23 @@
    
     /* Media Query for medium + screens */
 @media only screen and (min-width: 650px) {
-	.navigation {
+	.page_nav {
     display: flex;
   flex-direction: row;
-	}
-	.navigation li {
+  }
+  #condition img{
+    max-width: 40%;
+  }
+	.page_nav li {
 		display: inline-block; /* needed because of state in small view */
   }	
-  .navigation li a {
+  .page_nav li a {
 		text-align: center;
 	}
-	.navigation li:first-child {
+	.page_nav li:first-child {
 		display: none;
   }
-  #curCond{
+  #show{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     justify-content: space-evenly;
@@ -39,7 +42,10 @@ nav {
     margin-bottom: 30px;
 }
 
-.clear {
+.sunny {
+  background-image: url("/images/clear-assets/clear.png");
+ }
+ .mostly_clear {
   background-image: url("/images/clear-assets/clear.png");
  }
  .rain {

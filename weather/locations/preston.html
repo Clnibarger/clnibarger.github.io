@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title id = 'page-title'>whether the climate</title>
+    <title id = 'page-title'> | whether the climate</title>
     <link href="/css/normalize.css" rel="stylesheet">
     <link href="/weather/css/prestonsmall.css" rel="stylesheet">
     <link href="/weather/css/prestonmedium.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <header>
         <div><img class="logo" src="/images/Weather-128.png" alt="cloud image"></div>
         <div class="title" id="page-title">
-            <h1 id="contentHeading"> | WhethertheWeather.com</h1>
+            <h1>WhethertheWeather.com</h1>
             <p>We endure together</p>
         </div>
         <div>
@@ -26,8 +26,10 @@
         <div class="button"><button onclick="window.location.href = 'https://clnibarger.github.io/';">Portal</button>
         </div>
     </header>
-
-    <nav class="navigation">
+    <div id="secondHeading"> <p id="contentHeading"></p>
+        <p id="latLon"></p>
+    </div>
+    <nav class="page_nav">
 
         <ul class="menu">
             <li><a class="ham" href="#">&#9776; Menu</a></li>
@@ -38,12 +40,13 @@
         </ul>
 
     </nav>
+    <div id="curCond">
 
-
+    <section id="status">Please be patient while I get your weather information.</section>
 
    
     <main id ="main-content" class="hide">
-        <section id="status">Please be patient while I get your weather information.</section>
+        
 
         <div id ="top">
             <h2>Preston</h2>
@@ -54,27 +57,27 @@
                 </div>
                 <p id="feel">Feels Like <span id="feelTemp"></span>°F</p>
                 <div class="num">
-                    <p class = "left">58 degrees</p>
-                    <p class = "right">58 degrees</p>
+                    <p class = "left" id="speed">58 degrees</p>
+                    <p class = "right" id="gust">58 degrees</p>
                 </div>
         </div>
         
-<div id="curCond">
+        <div id="show">
 
-<section id="tempurature">
+<section id="temperature">
             <div class="component">
                 <div class="inner">
-                    <p class="i0 ">0</p>
-                    <p class="i1 ">1</p>
-                    <p class="i2 ">2</p>
-                    <p class="i3 ">3</p>
-                    <p class="i4 ">4</p>
-                    <p class="i5 ">5</p>
-                    <p class="i6 ">6</p>
-                    <p class="i7 ">7</p>
-                    <p class="i8 ">8</p>
-                    <p class="i9 ">9</p>
-                    <p class="i10 ">10</p>
+                    <p class="temp0 ">0</p>
+                    <p class="temp1 ">1</p>
+                    <p class="temp2 ">2</p>
+                    <p class="temp3 ">3</p>
+                    <p class="temp4 ">4</p>
+                    <p class="temp5 ">5</p>
+                    <p class="temp6 ">6</p>
+                    <p class="temp7 ">7</p>
+                    <p class="temp8 ">8</p>
+                    <p class="temp9 ">9</p>
+                    <p class="temp10 ">10</p>
                    
                     <p class="p1 ">1</p>
                     <p class="p2 ">2</p>
@@ -93,20 +96,20 @@
             </div>
         </section>
 
-        <section id="precipitation">
+        <section id="wind">
             <div class="component">
                 <div class="inner">
-                    <p class="i0 ">0</p>
-                    <p class="i1 ">1</p>
-                    <p class="i2 ">2</p>
-                    <p class="i3 ">3</p>
-                    <p class="i4 ">4</p>
-                    <p class="i5 ">5</p>
-                    <p class="i6 ">6</p>
-                    <p class="i7 ">7</p>
-                    <p class="i8 ">8</p>
-                    <p class="i9 ">9</p>
-                    <p class="i10 ">10</p>
+                    <p class="wind0 ">0</p>
+                    <p class="wind1 ">1</p>
+                    <p class="wind2 ">2</p>
+                    <p class="wind3 ">3</p>
+                    <p class="wind4 ">4</p>
+                    <p class="wind5 ">5</p>
+                    <p class="wind6 ">6</p>
+                    <p class="wind7 ">7</p>
+                    <p class="wind8 ">8</p>
+                    <p class="wind9 ">9</p>
+                    <p class="wind10 ">10</p>
 
                     <p class="p1 ">1</p>
                     <p class="p2 ">2</p>
@@ -125,7 +128,7 @@
             </div>
 
         </section>
-        <section id="conditions">
+        <section id="condition">
             <div class="component">
                 <div class="inner">
                     <img class="i0" alt="symbol" src="https://img.icons8.com/cute-clipart/64/000000/cloud.png">
@@ -158,6 +161,7 @@
         
     </section>
 </div> 
+</div>
     </main>
 
 

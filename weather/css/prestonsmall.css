@@ -165,15 +165,15 @@ section {
 
 /* Ham Menu*/
 
-.navigation li:first-child {
+.page_nav li:first-child {
   display: block;
 }
 
-.navigation li {
+.page_nav li {
   display: none;
 }
 
-.navigation a {
+.page_nav a {
   display: block;
 }
 
@@ -236,57 +236,57 @@ img {
   position: absolute;
 }
 
-.i0 {
+.i0, .temp0, .wind0 {
   top: -40px;
   left: 41%;
 }
 
-.i1 {
+.i1, .temp1, .wind1 {
   top: -27px;
   right: 11%;
 }
 
-.i2 {
+.i2, .temp2, .wind2 {
   top: 23px;
   right: -14%;
 }
 
-.i3 {
+.i3, .temp3, .wind3 {
   top: 43%;
   right: -40px;
 }
 
-.i4 {
+.i4, .temp4, .wind4 {
   bottom: 23px;
   right: -14%;
 }
 
-.i5 {
+.i5, .temp5, .wind5 {
   bottom: -27px;
   right: 11%;
 }
 
-.i6 {
+.i6, .temp6, .wind6 {
   bottom: -40px;
   left: 41%;
 }
 
-.i7 {
+.i7, .temp7, .wind7 {
   bottom: -27px;
   left: 11%;
 }
 
-.i8 {
+.i8, .temp8, .wind8 {
   bottom: 23px;
   left: -14%;
 }
 
-.i9 {
+.i9, .temp9, .wind9 {
   top: 43%;
   left: -40px;
 }
 
-.i10 {
+.i10, .temp10, .wind10 {
   top: 23px;
   left: -14%;
 }
@@ -307,7 +307,7 @@ img {
   right: 10px;
 }
 
-.p4 {
+.p4{
   bottom: 50px;
   right: 9%;
 }
@@ -376,7 +376,11 @@ font-size: 2.5rem;
   background-size: cover;
 
 }
-.clear {
+/* Constrain condition images */
+#condition img{
+  max-width: 40%;
+}
+.sunny {
   background-image: url("/images/clear-assets/clear2.png");
  }
  .rain {
@@ -391,11 +395,24 @@ font-size: 2.5rem;
  .cloud {
   background-image: url("/images/clouds-assets/cloud2.png");
  }
- .hide{
-  
-  
-}
- .i0 , .i1 , .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10{
+
+ .i0 , .i1 , .i2, .i3, .i4, .i5, .i6, .i7, .i8, .i9, .i10, .temp0, .temp1, .temp2, .temp3, .temp4, .temp5, .temp6, .temp7, .temp8, .temp9, .temp10, .wind0, .wind1, .wind2, .wind3, .wind4, .wind5, .wind6, .wind7, .wind8, .wind9, .wind10{
 color: red;
 font-size: 1.8rem;
+}
+#secondHeading{
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 40px;
+  padding-left: 40px;
+  height: 3.5rem;
+}
+#latLon{
+  font-size: 1rem;
+}
+#contentHeading{
+  font-size: 2.5rem;
+}
+.hide{
+  display: none;
 }

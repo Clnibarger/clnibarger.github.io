@@ -1,0 +1,8 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+.camp{
+    color: tomato;
+}

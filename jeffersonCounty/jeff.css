@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+li,
+a,
+button {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #edf0f1;
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 5%;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 40px;
+
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+
+  border-bottom-style: solid;
+  border-color: #24D493;
+}
+
+.button button {
+  padding: 6px 20px;
+  background: rgb(18, 106, 74, 1);
+  background: linear-gradient(180deg, rgba(18, 106, 74, 1) 0%, rgba(36, 212, 147, 1) 13%, rgba(18, 106, 74, 1) 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .3s ease 0s;
+}
+
+.button button:hover {
+  background: rgb(18, 106, 74, 0.8);
+  background: linear-gradient(180deg, rgba(18, 106, 74, 0.8) 0%, rgba(36, 212, 147, 0.8) 13%, rgba(18, 106, 74, 0.8) 100%);
+}
+
+nav,
+.button,
+.nav_links,
+.nav_links li,
+.nav_links li a {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.nav_links li:first-child {
+  display: none;
+}
+
+.main {
+  background-image: url("/jeffersonCounty/images/Rigby-ID.jpg");
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 10% 35% 25% auto;
+
+
+}
+
+.logo img {
+  height: 150px;
+  width: 150px;
+  margin: 15px 25px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.center {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: fit-content;
+  height: fit-content;
+  justify-self: center;
+  padding-bottom: 1vh;
+
+}
+
+.center h2 {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: #edf0f1;
+  font-family: 'Vollkorn', serif;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.center button {
+  padding: 3px 15px;
+  background: rgb(18, 106, 74, 1);
+  background: linear-gradient(180deg, rgba(18, 106, 74, 1) 0%, rgba(36, 212, 147, 1) 13%, rgba(18, 106, 74, 1) 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all .3s ease 0s;
+  font-size: 1rem;
+}
+
+.center button:hover {
+  background: rgba(18, 106, 74, 0.8);
+  background: linear-gradient(180deg, rgba(18, 106, 74, 0.8) 0%, rgba(36, 212, 147, 0.8) 13%, rgba(18, 106, 74, 0.8) 100%);
+}
+
+.search {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  display: flex;
+  margin-left: 3vw;
+  margin-right: 2vw;
+}
+
+.bar {
+  background-color: #edf0f1;
+  width: 100%;
+  margin-left: 1vw;
+}
+
+.blackbar {
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 60px;
+  margin-top: -20px;
+}
+
+.meat {
+  display: grid;
+  grid-template-columns: 17% 35% auto;
+  grid-gap: 4rem;
+}
+
+.countyd button {
+
+  padding: 10px 10px;
+  background: rgba(18, 106, 74, 1);
+  background: linear-gradient(180deg, rgba(18, 106, 74, 1) 0%, rgba(36, 212, 147, 1) 13%, rgba(18, 106, 74, 1) 100%);
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease 0s;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.countyd button:hover {
+  background: rgba(18, 106, 74, 0.8);
+  background: linear-gradient(180deg, rgba(18, 106, 74, 0.8) 0%, rgba(36, 212, 147, 0.8) 13%, rgba(18, 106, 74, 0.8) 100%);
+}
+
+.list {
+  background-color: black;
+  color: #edf0f1;
+  width: 100%;
+  height: max-content;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(18, 106, 74, 1);
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  margin: 0;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.div1 {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: -30px;
+  height: min-content;
+}
+
+div.div2 {
+  border-color: rgba(36, 212, 147, 1);
+  border-style: solid;
+  border-width: 1px;
+  padding: 50px;
+  border-radius: 150px;
+  background-color: white;
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.3);
+}
+
+.div2 h2,
+.div2 img,
+.div2 p {
+  background-color: rgba(0, 0, 0, 0);
+  align-self: center;
+}
+
+.div2 h2 {
+  font-size: 7vh;
+  padding-bottom: 1vh;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.google {
+  width: 290px;
+  height: 60px;
+  margin-top: -30px;
+  margin-left: 13rem;
+}
+.story{
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  margin-top: 10px;
+}
+.story img{
+  width: 180px;
+  height: 130px;
+  margin: 0px;
+  padding-right: 10px;
+}
+.story h3{
+  color:rgba(36, 212, 147, 1);
+}
+.map{
+  width: 500px;
+  margin-top: 10px;
+}
+
+        

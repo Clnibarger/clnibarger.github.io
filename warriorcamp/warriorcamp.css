@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap');
+
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+}
+/*Start Navigation Bar*/
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li,.logo h2{
+    display: inline-block;
+}
+.nav_links li{
+    padding: 0px 20px;
+}
+.nav_links li a{
+   transition: all 0.3s ease 0s;
+   color: whitesmoke;
+   font-size: 1.2rem;
+}
+.nav_links li a:hover{
+    color: #f35c10;
+ }
+ button{
+     padding: 9px 25px;
+     background-color: rgba(243, 92, 16, 1);
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: all 0.3s ease 0s;
+     font-size: 1.2rem;
+     color: white;
+ }
+ button:hover{
+    background-color: rgba(243, 92, 16, 0.8);
+ }
+ header, button, a{
+    
+    text-decoration: none;
+ }
+ .warrior{
+     color: white;
+ }
+ .camp{
+     color:#f35c10;
+ }
+ h2{
+     font-size: 6vh;
+ }
+ /*End Navigation Bar*/
+
+
+
+ 
+ .container{
+    width:100%;
+    height:470px;
+    overflow:hidden;
+   
+    background-image: url("/warriorcamp/images/wc7.jpg");
+    background-size: cover;
+ }
+ .color{
+    background-color: rgba(243, 92, 16, 0.15);
+    width: 100%;
+    height: 470px;
+ }
+ body {
+    background-image: url("/warriorcamp/images/black.jpg");
+  
+   }
+   .white{
+    background-image: url("/warriorcamp/images/white.jpg");
+   }
+   .stencil{
+    font-family: 'Stardos Stencil', cursive;
+   }
+   .announcements{
+       width: 33vw;
+       height: fit-content;
+       margin: auto;
+       margin-top: 50px;
+       margin-bottom: 50px;
+       padding: 30px;
+       text-align: center;
+   }
+   .announcements h2{
+       padding-bottom: 10px;
+   }
+   .fitness{
+       width: 31vw;
+       text-align: center;
+       padding-bottom: 20px;
+       margin-bottom: 20px;
+   }
+   .fitness h2{
+   padding: 25px;
+}
+   .fitness img{
+    width: 90%;
+    height: 70%;
+}
+   .middle{
+       display: flex;
+       width: 100%;
+       justify-content: space-around;
+       padding-bottom: 20px;
+       padding-top: 3vw;
+       margin-bottom: 20px;
+   }
+   .slogan{
+       color: white;
+       font-size: 5vh;
+       text-align: center;
+       margin: 50px;
+   }
+   .trial{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       margin-bottom: 80px;
+   }
+   .schedule{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+   }
+   .mon, .tue, .fri{
+       width: 30%;
+       min-width: 350px;
+       padding: 40px;
+       
+   }
+   .title{
+       text-align: center;
+       width: 90%;
+       margin: auto;
+       
+   }
+   .title h2{
+    padding: 30px;
+}
+.membershipText{
+    margin: auto;
+    width: 50%;
+    padding: 30px
+}
+
